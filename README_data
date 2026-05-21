@@ -1,0 +1,17 @@
+# Data
+
+The AMI Meeting Corpus is not included in this repository.
+It can be obtained from:
+- Public release: http://corpus.amiproject.org/
+- Or by contacting the original authors directly.
+
+Place the corpus in this directory with the following structure:
+data/
+└── ami_corpus/
+    ├── words/          (word-level transcript XML files)
+    ├── dialogueActs/   (NXT-format dialogue act XML files)
+    ├── meetings.xml
+    └── participants.xml
+
+The analysis uses the 120 scenario meetings (ES, IS, TS groups)
+with complete word-level transcripts and dialogue act annotations.
